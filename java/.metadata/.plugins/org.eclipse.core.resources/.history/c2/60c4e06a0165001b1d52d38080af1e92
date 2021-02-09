@@ -1,0 +1,13 @@
+package Sense4;
+
+/*
+typedef struct _S4OPENINFO {
+        DWORD dwS4OpenInfoSize;
+        DWORD dwShareMode;
+} S4OPENINFO;
+*/
+class S4OPENINFO
+{
+        public int dwS4OpenInfoSize;
+        public int dwShareMode;
+}

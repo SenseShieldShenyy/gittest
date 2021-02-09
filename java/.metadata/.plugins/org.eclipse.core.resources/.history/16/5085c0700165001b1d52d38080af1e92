@@ -1,0 +1,17 @@
+package Sense4;
+
+/*
+typedef struct _S4CREATEDIRINFO {
+        DWORD dwS4CreateDirInfoSize;
+        BYTE  szAtr[8];
+} S4CREATEDIRINFO;
+*/
+class S4CREATEDIRINFO
+{
+        public int dwS4CreateDirInfoSize;
+        byte [] szAtr;
+        S4CREATEDIRINFO()
+        {
+                szAtr = new byte[8];
+        }
+}

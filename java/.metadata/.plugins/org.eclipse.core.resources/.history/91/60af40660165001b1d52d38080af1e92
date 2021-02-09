@@ -1,0 +1,15 @@
+package Sense4;
+
+/*
+typedef struct{
+        WORD EfID;
+        BYTE EfType;
+        WORD EfSize;
+}EFINFO,*PEFINFO;
+*/
+class EFINFO
+{
+        public short EfID;
+        public byte EfType;
+        public short EfSize;
+}

@@ -1,0 +1,30 @@
+package Sense4;
+/*
+�����µ�c ��SENSE4_CONTEXT�ṹ����java�ĵȼ۽ṹ��
+typedef struct {
+       DWORD 			dwIndex;//device index
+       DWORD			dwVersion;//version
+       HANDLE			hLock;//device handle
+       BYTE			reserve[12];
+       BYTE			bAtr[MAX_ATR_LEN];
+       BYTE			bID[MAX_ID_LEN];
+       DWORD			dwAtrLen;
+}SENSE4_CONTEXT,*PSENSE4_CONTEXT;
+*/
+public
+class SENSE4_CONTEXT
+{
+        public int dwIndex;
+        public int dwVersion;
+        public int hLock;
+        public byte[] reserve;
+        public byte[] bAtr;
+        public byte[] bID;
+        public int dwAtrLen;
+        SENSE4_CONTEXT()
+        {
+                reserve = new byte[12];
+                bAtr = new byte[56];
+                bID = new byte[8];
+        }
+}
