@@ -108,6 +108,13 @@ public class Main {
         lic_json_object.put("end_time","="+Long.toString(long_start_time+100000));
         lic_json_object.put("concurrent_type","process");
         lic_json_object.put("concurrent","=0");
+        //数据区
+        JSONObject data_json_object = new JSONObject();
+        String data = converStringToHexstring("sense123");
+        data_json_object.put("data",data);
+        data_json_object.put("offset",0);
+        data_json_object.put("resize", "sense123".length());
+        lic_json_object.put("pub",data_json_object);
         String str_lic_object = lic_json_object.toJSONString();
         System.out.println(str_lic_object);
         byte[] byte_lic_object = str_lic_object.getBytes();
@@ -125,7 +132,7 @@ public class Main {
         }
         else
         {
-            System.out.println("error :"+status);
+            System.out.println("d2c add lic error :"+status);
         }
         LongByReference buffer_size =new LongByReference(0);
         status = D2C.d2c.d2c_get(d2c_handle,null,0,buffer_size);
@@ -237,5 +244,13 @@ public class Main {
 
         return bytes;
     }
-
+    public static String converStringToHexstring(String string) {
+        StringBuffer sb = new StringBuffer();
+        char ch[] = string.toCharArray();
+        for(int i = 0; i < ch.length; i++){
+            String hex_str = Integer.toHexString(ch[i]);
+            sb.append(hex_str);
+        }
+        return sb.toString();
+    }
 }
