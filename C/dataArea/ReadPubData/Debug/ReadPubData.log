@@ -1,0 +1,39 @@
+﻿生成启动时间为 2021/1/8 13:11:50。
+     1>项目“C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\ReadPubData.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ReadPubData.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         Y:\vs2010\VC\bin\CL.exe /c /I..\DataArea\inc /I..\DataArea\lib /I..\DataArea\inc /I"Y:\vld\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\DataArea\inc\common.c ..\DataArea\lib\base64.c ..\DataArea\lib\cJSON.c main.c
+         main.c
+     1>main.c(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 Y:\vs2010\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>main.c(200): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 Y:\vs2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         cJSON.c
+     1>..\DataArea\lib\cJSON.c(100): warning C4047: “函数”:“FARPROC”与“cJSON *”的间接级别不同
+     1>..\DataArea\lib\cJSON.c(100): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+     1>..\DataArea\lib\cJSON.c(104): warning C4047: “函数”:“FARPROC”与“char *”的间接级别不同
+     1>..\DataArea\lib\cJSON.c(104): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+     1>..\DataArea\lib\cJSON.c(105): warning C4047: “函数”:“FARPROC”与“char *”的间接级别不同
+     1>..\DataArea\lib\cJSON.c(105): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+     1>..\DataArea\lib\cJSON.c(106): warning C4047: “函数”:“FARPROC”与“cJSON *”的间接级别不同
+     1>..\DataArea\lib\cJSON.c(106): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+         base64.c
+         common.c
+         正在生成代码...
+       Link:
+         Y:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\Debug\ReadPubData.exe" /NOLOGO /LIBPATH:..\DataArea\lib /LIBPATH:"Y:\vld\Visual Leak Detector\lib\Win32" slm_runtime_api_dev.lib SlcCrypt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ReadPubData.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\Debug\ReadPubData.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\Debug\ReadPubData.lib" /MACHINE:X86 Debug\common.obj
+         Debug\base64.obj
+         Debug\cJSON.obj
+         Debug\main.obj
+         ReadPubData.vcxproj -> C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\Debug\ReadPubData.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\Debug\ReadPubData.exe;#1" /manifest Debug\ReadPubData.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ReadPubData.unsuccessfulbuild”。
+         正在对“Debug\ReadPubData.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\shenyy\Desktop\重新编译的工程\dataArea\ReadPubData\ReadPubData.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.92

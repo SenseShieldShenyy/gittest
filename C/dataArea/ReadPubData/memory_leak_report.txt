@@ -1,0 +1,3 @@
+Visual Leak Detector Version 2.5.1 installed.
+No memory leaks detected.
+Visual Leak Detector is now exiting.

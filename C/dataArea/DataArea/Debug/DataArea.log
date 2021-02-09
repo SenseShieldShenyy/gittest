@@ -1,0 +1,39 @@
+﻿生成启动时间为 2021/1/8 13:09:33。
+     1>项目“C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\DataArea.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DataArea.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         Y:\vs2010\VC\bin\CL.exe /c /I.\lib /I.\inc /I"Y:\vld\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt inc\common.c inc\ss_help.c lib\base64.c lib\cJSON.c main.c
+         main.c
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\main.c(257): warning C4020: “add_license_d2c”: 实参太多
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\main.c(303): warning C4029: 声明的形参表不同于定义
+         cJSON.c
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(100): warning C4047: “函数”:“FARPROC”与“cJSON *”的间接级别不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(100): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(104): warning C4047: “函数”:“FARPROC”与“char *”的间接级别不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(104): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(105): warning C4047: “函数”:“FARPROC”与“char *”的间接级别不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(105): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(106): warning C4047: “函数”:“FARPROC”与“cJSON *”的间接级别不同
+     1>c:\users\shenyy\desktop\重新编译的工程\dataarea\dataarea\lib\cjson.c(106): warning C4024: “IsBadCodePtr”: 形参和实参 1 的类型不同
+         base64.c
+         ss_help.c
+         common.c
+         正在生成代码...
+       Link:
+         Y:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\Debug\DataArea.exe" /NOLOGO /LIBPATH:.\lib /LIBPATH:"Y:\vld\Visual Leak Detector\bin\Win32" /LIBPATH:.\lib /LIBPATH:"Y:\vld\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib slm_runtime_api_dev.lib slm_control_api.lib libd2c.lib libx509.lib SlcCrypt.lib vld.lib /MANIFEST /ManifestFile:"Debug\DataArea.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\Debug\DataArea.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\Debug\DataArea.lib" /MACHINE:X86 Debug\common.obj
+         Debug\ss_help.obj
+         Debug\base64.obj
+         Debug\cJSON.obj
+         Debug\main.obj
+         DataArea.vcxproj -> C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\Debug\DataArea.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\Debug\DataArea.exe;#1" /manifest Debug\DataArea.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DataArea.unsuccessfulbuild”。
+         正在对“Debug\DataArea.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\shenyy\Desktop\重新编译的工程\dataArea\DataArea\DataArea.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.60

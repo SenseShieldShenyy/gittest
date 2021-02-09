@@ -1,0 +1,276 @@
+Visual Leak Detector Version 2.5.1 installed.
+WARNING: Visual Leak Detector detected memory leaks!
+---------- Block 4609 at 0x02788E78: 96 bytes ----------
+  Leak Hash: 0x4B0DE916, Count: 1, Total 96 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    18 8F 78 02    20 74 7E 01    00 74 7E 01    08 00 00 00     ..x..t~. .t~.....
+    10 00 00 00    00 00 00 00    08 00 00 00    00 02 00 00     ........ ........
+    00 01 00 00    05 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    3F 00 00 00    35 00 00 00     ........ ?...5...
+    05 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    35 00 00 00    05 00 00 00    35 00 00 00    00 00 00 00     5....... 5.......
+
+
+---------- Block 4610 at 0x02788F18: 64 bytes ----------
+  Leak Hash: 0x9D72A82E, Count: 1, Total 64 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    80 90 78 02    00 00 00 00    68 A3 78 02    00 00 00 00     ..x..... h.x.....
+    20 A2 D7 02    E0 A5 D7 02    A8 A8 D7 02    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 4611 at 0x02788F98: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    E0 8F 78 02    00 00 00 00                    ......x. ........
+
+
+---------- Block 4612 at 0x02788FE0: 20 bytes ----------
+  Leak Hash: 0x1CA91834, Count: 1, Total 20 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    30 90 78 02    00 00 00 00    04 00 00 00     ....0.x. ........
+    00 00 00 00                                                  ........ ........
+
+
+---------- Block 4613 at 0x02789030: 16 bytes ----------
+  Leak Hash: 0x567FA78C, Count: 1, Total 16 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 4614 at 0x02789080: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    98 8F 78 02    00 00 00 00    00 00 00 00                    ..x..... ........
+
+
+---------- Block 8324 at 0x027890C8: 24 bytes ----------
+  Leak Hash: 0x676E26A0, Count: 1, Total 24 bytes
+  Call Stack (TID 3120):
+  Data:
+    FF FF FF FF    FF FF FF FF    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    D0 07 00 02                                   ........ ........
+
+
+---------- Block 4617 at 0x02789158: 400 bytes ----------
+  Leak Hash: 0xBAE47B80, Count: 1, Total 400 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    30 0C 00 00    00 00 00 00    00 00 00 00     ....0... ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 4618 at 0x02789328: 96 bytes ----------
+  Leak Hash: 0x4B0DE916, Count: 1, Total 96 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    C8 93 78 02    F0 63 85 01    B0 63 85 01    08 00 00 00     ..x..c.. .c......
+    10 00 00 00    00 00 00 00    08 00 00 00    00 02 00 00     ........ ........
+    00 01 00 00    01 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    19 00 00 00    18 00 00 00     ........ ........
+    01 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    18 00 00 00    00 00 00 00    18 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 4619 at 0x027893C8: 64 bytes ----------
+  Leak Hash: 0x9D72A82E, Count: 1, Total 64 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    48 94 78 02    00 00 00 00    00 00 00 00    00 00 00 00     H.x..... ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 4620 at 0x02789448: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    58 91 78 02    00 00 00 00    70 9E 00 00                    X.x..... p.......
+
+
+---------- Block 4643 at 0x0278A280: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    0A 00 00 00    C8 A2 78 02    00 00 00 00                    ......x. ........
+
+
+---------- Block 4644 at 0x0278A2C8: 20 bytes ----------
+  Leak Hash: 0x1CA91834, Count: 1, Total 20 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    18 A3 78 02    00 00 00 00    04 00 00 00     ......x. ........
+    00 00 00 00                                                  ........ ........
+
+
+---------- Block 4645 at 0x0278A318: 16 bytes ----------
+  Leak Hash: 0x567FA78C, Count: 1, Total 16 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 4646 at 0x0278A368: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    80 A2 78 02    00 00 00 00    0A 00 00 00                    ..x..... ........
+
+
+---------- Block 5922 at 0x02D7A138: 12 bytes ----------
+  Leak Hash: 0xCD4815B8, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+  Data:
+    04 00 00 00    80 A1 D7 02    00 00 00 00                    ........ ........
+
+
+---------- Block 5923 at 0x02D7A180: 20 bytes ----------
+  Leak Hash: 0x08FC3D57, Count: 1, Total 20 bytes
+  Call Stack (TID 3120):
+  Data:
+    00 00 00 00    D0 A1 D7 02    00 00 00 00    04 00 00 00     ........ ........
+    00 00 00 00                                                  ........ ........
+
+
+---------- Block 5924 at 0x02D7A1D0: 16 bytes ----------
+  Leak Hash: 0x422A82EF, Count: 1, Total 16 bytes
+  Call Stack (TID 3120):
+  Data:
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 5925 at 0x02D7A220: 12 bytes ----------
+  Leak Hash: 0xCD4815B8, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+  Data:
+    38 A1 D7 02    00 00 00 00    04 00 00 00                    8....... ........
+
+
+---------- Block 5929 at 0x02D7A4F8: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    05 00 00 00    40 A5 D7 02    00 00 00 00                    ....@... ........
+
+
+---------- Block 5930 at 0x02D7A540: 20 bytes ----------
+  Leak Hash: 0x1CA91834, Count: 1, Total 20 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    90 A5 D7 02    00 00 00 00    04 00 00 00     ........ ........
+    00 00 00 00                                                  ........ ........
+
+
+---------- Block 5931 at 0x02D7A590: 16 bytes ----------
+  Leak Hash: 0x567FA78C, Count: 1, Total 16 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 5932 at 0x02D7A5E0: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    F8 A4 D7 02    00 00 00 00    05 00 00 00                    ........ ........
+
+
+---------- Block 5937 at 0x02D7A7C0: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    06 00 00 00    08 A8 D7 02    00 00 00 00                    ........ ........
+
+
+---------- Block 5938 at 0x02D7A808: 20 bytes ----------
+  Leak Hash: 0x1CA91834, Count: 1, Total 20 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    58 A8 D7 02    00 00 00 00    04 00 00 00     ....X... ........
+    00 00 00 00                                                  ........ ........
+
+
+---------- Block 5939 at 0x02D7A858: 16 bytes ----------
+  Leak Hash: 0x567FA78C, Count: 1, Total 16 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    00 00 00 00    00 00 00 00    00 00 00 00    00 00 00 00     ........ ........
+
+
+---------- Block 5940 at 0x02D7A8A8: 12 bytes ----------
+  Leak Hash: 0xD91D30DB, Count: 1, Total 12 bytes
+  Call Stack (TID 3120):
+    MSVCR100D.dll!malloc()
+    DataArea.exe!d2c_add_developer_cert() + 0xD19 bytes
+  Data:
+    C0 A7 D7 02    00 00 00 00    06 00 00 00                    ........ ........
+
+
+Visual Leak Detector detected 27 memory leaks (2028 bytes).
+Largest number used: 143346 bytes.
+Total allocations: 14027297 bytes.
+Visual Leak Detector is now exiting.

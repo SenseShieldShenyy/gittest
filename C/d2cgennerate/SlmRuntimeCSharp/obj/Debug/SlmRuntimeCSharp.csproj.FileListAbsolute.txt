@@ -1,0 +1,12 @@
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\bin\Debug\SlmRuntimeCSharp.exe.config
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\bin\Debug\SlmRuntimeCSharp.exe
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\bin\Debug\SlmRuntimeCSharp.pdb
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.csprojResolveAssemblyReference.cache
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.Form1.resources
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.Form2.resources
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.Form3.resources
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.Form4.resources
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.csproj.GenerateResource.Cache
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.exe
+C:\Users\shenyy\Desktop\重新编译的工程\d2cgennerate\SlmRuntimeCSharp\obj\Debug\SlmRuntimeCSharp.pdb
