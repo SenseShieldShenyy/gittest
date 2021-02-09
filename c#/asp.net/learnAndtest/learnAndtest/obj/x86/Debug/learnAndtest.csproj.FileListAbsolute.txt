@@ -1,0 +1,6 @@
+G:\code\c#\asp.net\learnAndtest\learnAndtest\bin\Debug\learnAndtest.exe
+G:\code\c#\asp.net\learnAndtest\learnAndtest\bin\Debug\learnAndtest.pdb
+G:\code\c#\asp.net\learnAndtest\learnAndtest\bin\Debug\Newtonsoft.Json.dll
+G:\code\c#\asp.net\learnAndtest\learnAndtest\obj\x86\Debug\learnAndtest.csprojResolveAssemblyReference.cache
+G:\code\c#\asp.net\learnAndtest\learnAndtest\obj\x86\Debug\learnAndtest.exe
+G:\code\c#\asp.net\learnAndtest\learnAndtest\obj\x86\Debug\learnAndtest.pdb

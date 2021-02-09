@@ -1,0 +1,8 @@
+G:\code\c#\asp.net\openApiForm\openApiForm\bin\Debug\openApiForm.exe
+G:\code\c#\asp.net\openApiForm\openApiForm\bin\Debug\openApiForm.pdb
+G:\code\c#\asp.net\openApiForm\openApiForm\obj\x86\Debug\openApiForm.csprojResolveAssemblyReference.cache
+G:\code\c#\asp.net\openApiForm\openApiForm\obj\x86\Debug\openApiForm.Form1.resources
+G:\code\c#\asp.net\openApiForm\openApiForm\obj\x86\Debug\openApiForm.Properties.Resources.resources
+G:\code\c#\asp.net\openApiForm\openApiForm\obj\x86\Debug\openApiForm.csproj.GenerateResource.Cache
+G:\code\c#\asp.net\openApiForm\openApiForm\obj\x86\Debug\openApiForm.exe
+G:\code\c#\asp.net\openApiForm\openApiForm\obj\x86\Debug\openApiForm.pdb

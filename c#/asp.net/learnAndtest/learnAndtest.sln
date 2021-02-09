@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learnAndtest", "learnAndtest\learnAndtest.csproj", "{6454544B-DDC0-45DF-8EB1-E1D655A7E416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6454544B-DDC0-45DF-8EB1-E1D655A7E416}.Debug|x86.ActiveCfg = Debug|x86
+		{6454544B-DDC0-45DF-8EB1-E1D655A7E416}.Debug|x86.Build.0 = Debug|x86
+		{6454544B-DDC0-45DF-8EB1-E1D655A7E416}.Release|x86.ActiveCfg = Release|x86
+		{6454544B-DDC0-45DF-8EB1-E1D655A7E416}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
