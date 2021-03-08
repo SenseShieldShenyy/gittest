@@ -156,7 +156,7 @@ public class Main {
         }
         try
         {
-            FileWriter my_file = new FileWriter("C:\\Users\\shenyy\\Desktop\\d2c\\test.d2c");
+            FileWriter my_file = new FileWriter("C:\\Users\\shenyy\\Desktop\\test.d2c");
             System.out.println(d2c_buffer.getString(0));
             my_file.write(d2c_buffer.getString(0));
             my_file.close();
