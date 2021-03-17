@@ -1,0 +1,22 @@
+﻿生成启动时间为 2021/3/17 15:55:23。
+     1>项目“G:\code\C\get _slock_info\get _slock_info\get _slock_info.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\get _slock_info.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         Y:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\code\C\get _slock_info\Debug\get _slock_info.exe" /NOLOGO /LIBPATH:"G:\code\C\get _slock_info\get _slock_info" /LIBPATH:"Y:\vld\Visual Leak Detector\lib\Win32" slm_control_api.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\get _slock_info.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\code\C\get _slock_info\Debug\get _slock_info.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\code\C\get _slock_info\Debug\get _slock_info.lib" /MACHINE:X86 Debug\cJSON.obj
+         Debug\main.obj
+         LINK : 没有找到 G:\code\C\get _slock_info\Debug\get _slock_info.exe 或上一个增量链接没有生成它；正在执行完全链接
+         get _slock_info.vcxproj -> G:\code\C\get _slock_info\Debug\get _slock_info.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\code\C\get _slock_info\Debug\get _slock_info.exe;#1" /manifest "Debug\get _slock_info.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\get _slock_info.unsuccessfulbuild”。
+         正在对“Debug\get _slock_info.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\code\C\get _slock_info\get _slock_info\get _slock_info.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.32
