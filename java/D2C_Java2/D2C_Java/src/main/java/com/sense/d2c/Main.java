@@ -33,7 +33,7 @@ public class Main {
         System.setProperty("jna.library.path", System.getProperty("java.library.path"));
         System.out.println(System.getProperty("jna.library.path"));
 
-        CLibrary.C_LIBRARY.printf("Hello, World\n");
+        //CLibrary.C_LIBRARY.printf("Hello, World\n");
 
 
         //master_open
