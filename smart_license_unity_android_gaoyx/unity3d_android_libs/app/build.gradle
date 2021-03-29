@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+//参考:
+//https://docs.unity3d.com/Manual/PluginsForAndroid.html Building and using plug-ins for Android
+//https://docs.unity3d.com/Manual/AndroidUnityPlayerActivity.html  Native (C++) plug-ins for Android //Extending the UnityPlayerActivity Java Code
+//https://blog.csdn.net/jiaxunnanling/article/details/89947744  Unity与Android交互-基础知识
+//https://blog.csdn.net/qq_27312601/article/details/87516841  Unity3D调用Android jar/aar包
+//https://www.jianshu.com/p/f3ce48e8bb23  Unity3d 接入Android AAR详细流程
+//https://www.jianshu.com/p/773e3aa4a899  Android Studio 如何打JAR包——命令./gradlew makeJar
+//https://www.cnblogs.com/BobbyWeaver/p/5148883.html   Unity通过Jar包调用Android
+
+//https://blog.csdn.net/tantion/article/details/86686234   如何在build.gradle自定义和调用方法
+
+task clearJar(type: Delete) {
+    delete 'build/libs/unitylibs.jar' //jar包的名字，随便命名 
+}
+task makeJar(type:org.gradle.api.tasks.bundling.Jar) {
+    //指定生成的jar名 
+    baseName 'unitylibs'
+    //从哪里打包class文件 
+    from('build/intermediates/javac/debug/classes/')
+    from('libs')
+    //打包到jar后的目录结构 
+    into('lib')
+    //去掉不需要打包的目录和文件 
+    exclude('test/', '**/BuildConfig.class', 'libs/classes.jar')
+}
+
+makeJar.dependsOn(clearJar, build)

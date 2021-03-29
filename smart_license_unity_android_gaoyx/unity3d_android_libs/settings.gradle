@@ -1,0 +1,3 @@
+rootProject.name='unity3d_android_libs'
+include ':app'
+include ':for_unity3d_libs'
